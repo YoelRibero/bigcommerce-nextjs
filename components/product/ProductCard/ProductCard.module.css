@@ -16,35 +16,35 @@
     & .productTitle > span,
     & .productPrice,
     & .wishlistButton,
-    & .sale-discount {
+    & .saleDiscount {
       @apply bg-secondary text-secondary;
     }
 
     &:nth-child(6n + 1) .productTitle > span,
     &:nth-child(6n + 1) .productPrice,
     &:nth-child(6n + 1) .wishlistButton,
-    &:nth-child(6n + 1) .sale-discount {
+    &:nth-child(6n + 1) .saleDiscount {
       @apply bg-violet text-white;
     }
 
     &:nth-child(6n + 5) .productTitle > span,
     &:nth-child(6n + 5) .productPrice,
     &:nth-child(6n + 5) .wishlistButton,
-    &:nth-child(6n + 5) .sale-discount {
+    &:nth-child(6n + 5) .saleDiscount {
       @apply bg-blue text-white;
     }
 
     &:nth-child(6n + 3) .productTitle > span,
     &:nth-child(6n + 3) .productPrice,
     &:nth-child(6n + 3) .wishlistButton,
-    &:nth-child(6n + 3) .sale-discount {
+    &:nth-child(6n + 3) .saleDiscount {
       @apply bg-pink text-white;
     }
 
     &:nth-child(6n + 6) .productTitle > span,
     &:nth-child(6n + 6) .productPrice,
     &:nth-child(6n + 6) .wishlistButton,
-    &:nth-child(6n + 6) .sale-discount {
+    &:nth-child(6n + 6) .saleDiscount {
       @apply bg-cyan text-white;
     }
   }
@@ -70,7 +70,7 @@
 .productTitle > span,
 .productPrice,
 .wishlistButton,
-.sale-discount {
+.saleDiscount {
   @apply transition-colors ease-in-out duration-500;
 }
 

@@ -1,5 +1,5 @@
 import React from 'react'
 
-import './index.css'
+import s from './SaleBadge.module.css'
 
-export const SaleBadge = () => <span className="sale-discount">20%</span>
+export const SaleBadge = () => <span className={s.saleDiscount}>20%</span>
