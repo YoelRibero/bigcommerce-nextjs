@@ -1,0 +1,13 @@
+.sale-discount {
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+  font-weight: 600;
+  height: 50px;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+  top: 3rem;
+  width: 50px;
+  z-index: 1;
+}

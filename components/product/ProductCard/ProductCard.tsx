@@ -5,6 +5,7 @@ import type { Product } from '@commerce/types'
 import s from './ProductCard.module.css'
 import Image, { ImageProps } from 'next/image'
 import WishlistButton from '@components/wishlist/WishlistButton'
+import { SaleBadge } from '../../custom/SaleBadge'
 
 interface Props {
   className?: string
@@ -70,7 +71,7 @@ const ProductCard: FC<Props> = ({
               )}
             </div>
             <div className={s.imageContainer}>
-              <div className="sale-discount">20%</div>
+              <SaleBadge />
               {product?.images && (
                 <Image
                   alt={product.name || 'Product Image'}
